@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16305a"/>
+      <stop offset=".55" stop-color="#0b1424"/>
+      <stop offset="1" stop-color="#05090f"/>
+    </linearGradient>
+    <linearGradient id="tv" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <path d="M40 330 L150 200 L225 285 L300 170 L400 300 L472 240 L472 340 L40 340 Z" fill="#1d3a5c" opacity=".8"/>
+  <path d="M150 200 L185 240 L165 240 L200 285 L150 285 Z" fill="#f6f9fc" opacity=".9"/>
+  <path d="M300 170 L335 215 L315 215 L350 260 L300 260 Z" fill="#f6f9fc" opacity=".9"/>
+  <path d="M96 472 L216 340 L296 340 L416 472 Z" fill="url(#road)" opacity=".9"/>
+  <path d="M248 352 L264 352 L272 472 L240 472 Z" fill="#f5c542"/>
+  <g transform="skewX(-8)">
+    <text x="256" y="150" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="96" font-weight="900" font-style="italic" fill="url(#tv)">TURBO</text>
+    <text x="256" y="238" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900" font-style="italic" fill="#eef4ff">VALLEY</text>
+  </g>
+  <circle cx="256" cy="300" r="10" fill="#fbbf24"/>
+  <path d="M256 282 L262 296 L276 298 L266 308 L269 322 L256 315 L243 322 L246 308 L236 298 L250 296 Z" fill="#fbbf24"/>
+</svg>
